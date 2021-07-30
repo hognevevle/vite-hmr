@@ -1,0 +1,22 @@
+{
+  "name": "superagent-chat-widget",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite --debug",
+    "build": "vue-tsc --noEmit && vite build",
+    "build:shim": "node scripts/build.js",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-legacy": "^1.5.0",
+    "@vueuse/core": "^5.2.0",
+    "vue": "^3.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.3.0",
+    "@vue/compiler-sfc": "^3.1.5",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4",
+    "vue-tsc": "^0.2.2"
+  }
+}
